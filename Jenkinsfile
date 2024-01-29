@@ -6,9 +6,9 @@ pipeline {
       //jfrog 'cli'         
     }
     environment {
-        DOCKER_IMAGE_NAME = "slk.jfrog.io/fis-demo-dockerhub/app-image.${BUILD_ID}.${env.BUILD_NUMBER}"
-        ARTIFACTORY_ACCESS_TOKEN = credentials('jf_access_token')
-        WEBHOOK_URL = credentials("webhook_url")
+        //DOCKER_IMAGE_NAME = "slk.jfrog.io/fis-demo-dockerhub/app-image.${BUILD_ID}.${env.BUILD_NUMBER}"
+        //ARTIFACTORY_ACCESS_TOKEN = credentials('jf_access_token')
+       // WEBHOOK_URL = credentials("webhook_url")
         BUILD_NAME = "${JOB_NAME}"
         BUILD_NO = "${env.BUILD_NUMBER}"
        
