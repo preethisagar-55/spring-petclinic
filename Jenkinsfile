@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage ('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github', url: ''
+                git branch: 'main', credentialsId: 'preethisagar-55', url: ''
             }
         }
         stage ('Build') {
