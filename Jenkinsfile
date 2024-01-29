@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
       maven 'maven3.6.3'
-      jdk 'JDK11'
+      jdk 'JDK1.8.0_392'
       jfrog 'cli'         
     }
     environment {
