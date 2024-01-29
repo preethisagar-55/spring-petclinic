@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage ('Checkout') {
             steps {
-                git branch: 'main', credentialsId: '48785612-03ff-4a94-bec2-f389cdf863fc', url: ''
+                git branch: 'main', credentialsId: '48785612-03ff-4a94-bec2-f389cdf863fc', url: 'https://github.com/preethisagar-55/spring-petclinic'
             }
         }
         stage ('Build') {
